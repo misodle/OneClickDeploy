@@ -1,0 +1,8 @@
+#
+# JSMProxy directive file
+#
+# service, local host, method, limit, remote host, remote program
+#
+ORDERENTRY,LANSA01:89,POST/GET,100000,LANSA01:88,/cgi-bin/jsmdirect
+ORDERENTRY,*DEFAULT,POST/GET,100000,LANSA01:88,/cgi-bin/jsmdirect
+#
