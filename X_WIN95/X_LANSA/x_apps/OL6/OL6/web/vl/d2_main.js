@@ -637,18 +637,18 @@ function( Lansa, objectId, undefined )
    //
    function evtRoutine1( sender, parms )
    {
-      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#COM_OWNER.Initialize", 56 );
+      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#COM_OWNER.Initialize", 58 );
 
       //
       // EVTROUTINE Handling(#COM_OWNER.Initialize)
       //
-      rtn.Line( 56 );
+      rtn.Line( 58 );
       {
 
          //
          // #SignIn.Show
          //
-         rtn.Line( 58 );
+         rtn.Line( 60 );
          ref.SIGNIN.mthSHOW();
 
       }
@@ -656,7 +656,7 @@ function( Lansa, objectId, undefined )
       //
       // ENDROUTINE
       //
-      rtn.Line( 60 );
+      rtn.Line( 62 );
       rtn.end();
    };
 
@@ -665,18 +665,18 @@ function( Lansa, objectId, undefined )
    //
    function evtRoutine2( sender, parms )
    {
-      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#SignIn.Completed", 62 );
+      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#SignIn.Completed", 64 );
 
       //
       // EVTROUTINE Handling(#SignIn.Completed)
       //
-      rtn.Line( 62 );
+      rtn.Line( 64 );
       {
 
          //
          // #Issues.Show
          //
-         rtn.Line( 64 );
+         rtn.Line( 66 );
          ref.ISSUES.mthSHOW();
 
       }
@@ -684,7 +684,7 @@ function( Lansa, objectId, undefined )
       //
       // ENDROUTINE
       //
-      rtn.Line( 66 );
+      rtn.Line( 68 );
       rtn.end();
    };
 
@@ -693,7 +693,7 @@ function( Lansa, objectId, undefined )
    //
    function evtRoutine3( sender, parms )
    {
-      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#NavButtonSignOut.Click", 68 );
+      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#NavButtonSignOut.Click", 70 );
 
       //
       // DEFINE_COM Class(#D2_Session.SignOut) Name(#SignOut)
@@ -708,25 +708,25 @@ function( Lansa, objectId, undefined )
       //
       // EVTROUTINE Handling(#NavButtonSignOut.Click)
       //
-      rtn.Line( 68 );
+      rtn.Line( 70 );
       {
 
          //
          // #SignOut.ExecuteAsync
          //
-         rtn.Line( 72 );
+         rtn.Line( 74 );
          SIGNOUT.mthEXECUTEASYNC( {  }, {  } );
 
          //
          // #ViewContainer.Clear
          //
-         rtn.Line( 74 );
+         rtn.Line( 76 );
          ref.VIEWCONTAINER.mthCLEAR();
 
          //
          // #SignIn.Show
          //
-         rtn.Line( 76 );
+         rtn.Line( 78 );
          ref.SIGNIN.mthSHOW();
 
       }
@@ -734,7 +734,7 @@ function( Lansa, objectId, undefined )
       //
       // ENDROUTINE
       //
-      rtn.Line( 78 );
+      rtn.Line( 80 );
       rtn.end();
    };
 
@@ -743,37 +743,37 @@ function( Lansa, objectId, undefined )
    //
    function evtRoutine4( sender, parms )
    {
-      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#SYS_WEB.DeviceChanged", 80 );
+      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#SYS_WEB.DeviceChanged", 82 );
 
       //
       // EVTROUTINE Handling(#SYS_WEB.DeviceChanged)
       //
-      rtn.Line( 80 );
+      rtn.Line( 82 );
       {
 
          //
          // IF (#SYS_WEB.Device = Mobile)
          //
-         rtn.Line( 82 );
+         rtn.Line( 84 );
          if ( Lansa.String.eq( Lansa.WEB().getDevice(), "MOBILE" ) )
          {
 
             //
             // #AppDrawer.DrawerStyle := SlideInLeft
             //
-            rtn.Line( 84 );
+            rtn.Line( 86 );
             ref.APPDRAWER.setDrawerStyle( "SLIDEINLEFT" );
 
             //
             // #LayoutMainColumn1.Width := 0
             //
-            rtn.Line( 86 );
+            rtn.Line( 88 );
             ref.LAYOUTMAINCOLUMN1.setWidth( 0 );
 
             //
             // #SearchString.Icon := "menu"
             //
-            rtn.Line( 88 );
+            rtn.Line( 90 );
             ref.SEARCHSTRING.setIcon( "menu" );
 
          //
@@ -786,19 +786,19 @@ function( Lansa, objectId, undefined )
             //
             // #AppDrawer.DrawerStyle := Permanent
             //
-            rtn.Line( 92 );
+            rtn.Line( 94 );
             ref.APPDRAWER.setDrawerStyle( "PERMANENT" );
 
             //
             // #LayoutMainColumn1.Width := 220
             //
-            rtn.Line( 94 );
+            rtn.Line( 96 );
             ref.LAYOUTMAINCOLUMN1.setWidth( 220 );
 
             //
             // #SearchString.Icon := "search"
             //
-            rtn.Line( 96 );
+            rtn.Line( 98 );
             ref.SEARCHSTRING.setIcon( "search" );
 
          //
@@ -811,7 +811,7 @@ function( Lansa, objectId, undefined )
       //
       // ENDROUTINE
       //
-      rtn.Line( 100 );
+      rtn.Line( 102 );
       rtn.end();
    };
 
@@ -820,25 +820,25 @@ function( Lansa, objectId, undefined )
    //
    function evtRoutine5( sender, parms )
    {
-      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#SearchString.IconClick", 102 );
+      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#SearchString.IconClick", 104 );
 
       //
       // EVTROUTINE Handling(#SearchString.IconClick)
       //
-      rtn.Line( 102 );
+      rtn.Line( 104 );
       {
 
          //
          // IF (#SYS_WEB.Device = Mobile)
          //
-         rtn.Line( 104 );
+         rtn.Line( 106 );
          if ( Lansa.String.eq( Lansa.WEB().getDevice(), "MOBILE" ) )
          {
 
             //
             // #AppDrawer.ToggleDrawer
             //
-            rtn.Line( 106 );
+            rtn.Line( 108 );
             ref.APPDRAWER.mthTOGGLEDRAWER();
 
          //
@@ -851,7 +851,7 @@ function( Lansa, objectId, undefined )
       //
       // ENDROUTINE
       //
-      rtn.Line( 110 );
+      rtn.Line( 112 );
       rtn.end();
    };
 
@@ -860,18 +860,18 @@ function( Lansa, objectId, undefined )
    //
    function evtRoutine6( sender, parms )
    {
-      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#SearchString.AutoSuggest", 112 );
+      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#SearchString.AutoSuggest", 114 );
 
       //
       // EVTROUTINE Handling(#SearchString.AutoSuggest)
       //
-      rtn.Line( 112 );
+      rtn.Line( 114 );
       {
 
          //
          // SET Com(#Issues) Filter(#SearchString)
          //
-         rtn.Line( 114 );
+         rtn.Line( 116 );
          ref.ISSUES.setFILTER( ref.SEARCHSTRING.get() );
 
       }
@@ -879,7 +879,7 @@ function( Lansa, objectId, undefined )
       //
       // ENDROUTINE
       //
-      rtn.Line( 116 );
+      rtn.Line( 118 );
       rtn.end();
    };
 
@@ -888,18 +888,18 @@ function( Lansa, objectId, undefined )
    //
    function evtRoutine7( sender, parms )
    {
-      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#ViewContainer.ActiveViewChanged", 118 );
+      var ref = this.REF, rtn = Lansa.evtRoutine( this, COM_OWNER, "#ViewContainer.ActiveViewChanged", 120 );
 
       //
       // EVTROUTINE Handling(#ViewContainer.ActiveViewChanged)
       //
-      rtn.Line( 118 );
+      rtn.Line( 120 );
       {
 
          //
          // #SearchString := ""
          //
-         rtn.Line( 120 );
+         rtn.Line( 122 );
          ref.SEARCHSTRING.set( "" );
 
       }
@@ -907,7 +907,7 @@ function( Lansa, objectId, undefined )
       //
       // ENDROUTINE
       //
-      rtn.Line( 122 );
+      rtn.Line( 124 );
       rtn.end();
    };
 
