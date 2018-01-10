@@ -3,5 +3,11 @@ LI	LI
 DF	WO	a001x.js	 	 	A001X	O	 	 	 	 
 DF	WO	a001x.html	 	 	A001X	O	 	 	 	 
 DF	WO	a001x.appcache	 	 	A001X	O	 	 	 	 
+DF	WO	d1_main.js	 	 	D1_MAIN	O	 	 	 	 
+DF	WO	d1_main.html	 	 	D1_MAIN	O	 	 	 	 
+DF	WO	d1_main.appcache	 	 	D1_MAIN	O	 	 	 	 
+FD	SO	afile1.CTD	I	 	AFILE1	N	 	 	D	 
+FD	EO	afile1.DLL	I	 	AFILE1	N	 	 	D	 
+FD	SD	afile1.DLL	I	 	AFILE1	N	 	 	D	 
 LI	CA	 	 	 	 	 	 	 	 	 
  	 	 	 	 	 	 	 	 	 	 
