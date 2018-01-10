@@ -37,12 +37,12 @@ function( Lansa, objectId, undefined )
          // -- Component Definitions --
          // ---------------------------
          //
-         // DEFINE_COM Class(#PRIM_VS.Style) Name(#StyleAppDrawer) BorderRight(0)
+         // DEFINE_COM Class(#PRIM_VS.Style) Name(#StyleAppDrawer) Borderright(0)
          //
          var STYLEAPPDRAWER = this.createReference( "STYLEAPPDRAWER", "PRIM_VS", "Style" );
 
          //
-         // DEFINE_COM Class(#PRIM_VS.Style) Name(#StyleHeader) BackgroundBrush(#BrushHeader)
+         // DEFINE_COM Class(#PRIM_VS.Style) Name(#StyleHeader) Backgroundbrush(#BrushHeader)
          //
          var STYLEHEADER = this.createReference( "STYLEHEADER", "PRIM_VS", "Style" );
 
@@ -52,7 +52,7 @@ function( Lansa, objectId, undefined )
          var BRUSHHEADER = this.createReference( "BRUSHHEADER", "PRIM_VS", "SolidBrush" );
 
          //
-         // DEFINE_COM Class(#PRIM_VS.Style) Name(#StyleMain) BackgroundBrush(#BrushMain)
+         // DEFINE_COM Class(#PRIM_VS.Style) Name(#StyleMain) Backgroundbrush(#BrushMain)
          //
          var STYLEMAIN = this.createReference( "STYLEMAIN", "PRIM_VS", "Style" );
 
@@ -67,47 +67,47 @@ function( Lansa, objectId, undefined )
          var LAYOUTMAIN = this.createReference( "LAYOUTMAIN", "PRIM_TBLO" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutMainColumn1) DisplayPosition(1) Parent(#LayoutMain) Units(Pixels) Width(220)
+         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutMainColumn1) Displayposition(1) Parent(#LayoutMain) Units(Pixels) Width(220)
          //
          var LAYOUTMAINCOLUMN1 = this.createReference( "LAYOUTMAINCOLUMN1", "PRIM_TBLO", "Column" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutMainColumn2) DisplayPosition(2) Parent(#LayoutMain) Units(Pixels) Width(8)
+         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutMainColumn2) Displayposition(2) Parent(#LayoutMain) Units(Pixels) Width(8)
          //
          var LAYOUTMAINCOLUMN2 = this.createReference( "LAYOUTMAINCOLUMN2", "PRIM_TBLO", "Column" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutMainColumn3) DisplayPosition(3) Parent(#LayoutMain)
+         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutMainColumn3) Displayposition(3) Parent(#LayoutMain)
          //
          var LAYOUTMAINCOLUMN3 = this.createReference( "LAYOUTMAINCOLUMN3", "PRIM_TBLO", "Column" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutMainColumn4) DisplayPosition(4) Parent(#LayoutMain) Units(Pixels) Width(8)
+         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutMainColumn4) Displayposition(4) Parent(#LayoutMain) Units(Pixels) Width(8)
          //
          var LAYOUTMAINCOLUMN4 = this.createReference( "LAYOUTMAINCOLUMN4", "PRIM_TBLO", "Column" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Row) Name(#LayoutMainRow1) DisplayPosition(1) Parent(#LayoutMain) Units(Pixels) Height(80)
+         // DEFINE_COM Class(#PRIM_TBLO.Row) Name(#LayoutMainRow1) Displayposition(1) Parent(#LayoutMain) Units(Pixels) Height(80)
          //
          var LAYOUTMAINROW1 = this.createReference( "LAYOUTMAINROW1", "PRIM_TBLO", "Row" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Row) Name(#LayoutMainRow2) DisplayPosition(2) Parent(#LayoutMain) Height(20) Units(Pixels)
+         // DEFINE_COM Class(#PRIM_TBLO.Row) Name(#LayoutMainRow2) Displayposition(2) Parent(#LayoutMain) Height(20) Units(Pixels)
          //
          var LAYOUTMAINROW2 = this.createReference( "LAYOUTMAINROW2", "PRIM_TBLO", "Row" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Row) Name(#LayoutMainRow3) DisplayPosition(3) Parent(#LayoutMain)
+         // DEFINE_COM Class(#PRIM_TBLO.Row) Name(#LayoutMainRow3) Displayposition(3) Parent(#LayoutMain)
          //
          var LAYOUTMAINROW3 = this.createReference( "LAYOUTMAINROW3", "PRIM_TBLO", "Row" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Item) Name(#LayoutMainItem1) Column(#LayoutMainColumn1) Manage(#PanelHeader) Parent(#LayoutMain) Row(#LayoutMainRow1) ColumnSpan(4) RowSpan(2)
+         // DEFINE_COM Class(#PRIM_TBLO.Item) Name(#LayoutMainItem1) Column(#LayoutMainColumn1) Manage(#PanelHeader) Parent(#LayoutMain) Row(#LayoutMainRow1) Columnspan(4) Rowspan(2)
          //
          var LAYOUTMAINITEM1 = this.createReference( "LAYOUTMAINITEM1", "PRIM_TBLO", "Item" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Item) Name(#LayoutMainItem2) Column(#LayoutMainColumn1) Manage(#AppDrawer) Parent(#LayoutMain) Row(#LayoutMainRow1) RowSpan(3) ColumnSpan(2)
+         // DEFINE_COM Class(#PRIM_TBLO.Item) Name(#LayoutMainItem2) Column(#LayoutMainColumn1) Manage(#AppDrawer) Parent(#LayoutMain) Row(#LayoutMainRow1) Rowspan(3) Columnspan(2)
          //
          var LAYOUTMAINITEM2 = this.createReference( "LAYOUTMAINITEM2", "PRIM_TBLO", "Item" );
 
@@ -117,7 +117,7 @@ function( Lansa, objectId, undefined )
          var LAYOUTMAINITEM3 = this.createReference( "LAYOUTMAINITEM3", "PRIM_TBLO", "Item" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Item) Name(#LayoutMainItem4) Column(#LayoutMainColumn3) Manage(#ViewContainer) Parent(#LayoutMain) Row(#LayoutMainRow2) RowSpan(2)
+         // DEFINE_COM Class(#PRIM_TBLO.Item) Name(#LayoutMainItem4) Column(#LayoutMainColumn3) Manage(#ViewContainer) Parent(#LayoutMain) Row(#LayoutMainRow2) Rowspan(2)
          //
          var LAYOUTMAINITEM4 = this.createReference( "LAYOUTMAINITEM4", "PRIM_TBLO", "Item" );
 
@@ -127,12 +127,12 @@ function( Lansa, objectId, undefined )
          var LAYOUTAPPDRAWER = this.createReference( "LAYOUTAPPDRAWER", "PRIM_TBLO" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Row) Name(#LayoutAppDrawerRow1) DisplayPosition(1) Parent(#LayoutAppDrawer)
+         // DEFINE_COM Class(#PRIM_TBLO.Row) Name(#LayoutAppDrawerRow1) Displayposition(1) Parent(#LayoutAppDrawer)
          //
          var LAYOUTAPPDRAWERROW1 = this.createReference( "LAYOUTAPPDRAWERROW1", "PRIM_TBLO", "Row" );
 
          //
-         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutAppDrawerColumn1) DisplayPosition(1) Parent(#LayoutAppDrawer)
+         // DEFINE_COM Class(#PRIM_TBLO.Column) Name(#LayoutAppDrawerColumn1) Displayposition(1) Parent(#LayoutAppDrawer)
          //
          var LAYOUTAPPDRAWERCOLUMN1 = this.createReference( "LAYOUTAPPDRAWERCOLUMN1", "PRIM_TBLO", "Column" );
 
@@ -157,52 +157,52 @@ function( Lansa, objectId, undefined )
          var LAYOUTAPPDRAWERITEM4 = this.createReference( "LAYOUTAPPDRAWERITEM4", "PRIM_TBLO", "Item" );
 
          //
-         // DEFINE_COM Class(#PRIM_PANL) Name(#PanelHeader) DisplayPosition(4) Height(100) Parent(#COM_OWNER) TabPosition(4) TabStop(False) Top(0) Width(1200) Left(0) Style(#StyleHeader)
+         // DEFINE_COM Class(#PRIM_PANL) Name(#PanelHeader) Displayposition(4) Height(100) Parent(#COM_OWNER) Tabposition(4) Tabstop(False) Top(0) Width(1200) Left(0) Style(#StyleHeader)
          //
          var PANELHEADER = this.createReference( "PANELHEADER", "PRIM_PANL" );
 
          //
-         // DEFINE_COM Class(#PRIM_MD.Edit) Name(#SearchString) DisplayPosition(3) Label('Label') Parent(#COM_OWNER) TabPosition(1) Top(20) Appearance(None) HelperPosition(None) Icon('search') LabelPosition(None) Width(960) Height(40) Placeholder('Search') ThemeDrawStyle('Card+ForegroundTheme') Left(230) 
+         // DEFINE_COM Class(#PRIM_MD.Edit) Name(#SearchString) Displayposition(3) Label('Label') Parent(#COM_OWNER) Tabposition(1) Top(20) Appearance(None) Helperposition(None) Icon('search') Labelposition(None) Width(964) Height(40) Placeholder('Search') Themedrawstyle('Card+ForegroundTheme') Left(228)
          //
          var SEARCHSTRING = this.createReference( "SEARCHSTRING", "PRIM_MD", "Edit" );
 
          //
-         // DEFINE_COM Class(#PRIM_MD.AppDrawer) Name(#AppDrawer) DisplayPosition(1) TabPosition(3) TabStop(False) Height(800) Width(230) LayoutManager(#LayoutAppDrawer) ThemeDrawStyle('MediumTitle') Style(#StyleAppDrawer) Parent(#COM_OWNER)
+         // DEFINE_COM Class(#PRIM_MD.AppDrawer) Name(#AppDrawer) Displayposition(1) Tabposition(3) Height(800) Width(228) Layoutmanager(#LayoutAppDrawer) Themedrawstyle('MediumTitle') Style(#StyleAppDrawer) Parent(#COM_OWNER)
          //
          var APPDRAWER = this.createReference( "APPDRAWER", "PRIM_MD", "AppDrawer" );
 
          //
-         // DEFINE_COM Class(#PRIM_MD.ViewContainer) Name(#ViewContainer) DisplayPosition(2) Parent(#COM_OWNER) TabPosition(2) TabStop(False) ThemeDrawStyle('Card+ForegroundTheme') Height(720) Width(960) Left(230) Top(80) AutoSelect(False)
+         // DEFINE_COM Class(#PRIM_MD.ViewContainer) Name(#ViewContainer) Displayposition(2) Parent(#COM_OWNER) Tabposition(2) Themedrawstyle('Card+ForegroundTheme') Height(720) Width(964) Left(228) Top(80) Autoselect(False)
          //
          var VIEWCONTAINER = this.createReference( "VIEWCONTAINER", "PRIM_MD", "ViewContainer" );
 
          //
-         // DEFINE_COM Class(#PRIM_MD.Label) Name(#ApplicationName) Caption('Issues') DisplayPosition(1) Left(0) Parent(#AppDrawer) TabPosition(1) TabStop(False) Top(0) ThemeDrawStyle('Title+DarkTitle') Width(230) Height(100) IconAlignment(CenterLeft) IconMarginLeft(10) IconHeight(32) CaptionMarginRight(0) CaptionMarginLeft(30) CaptionMarginBottom(0) CaptionMarginTop(20) CaptionAlignment(TopLeft)
+         // DEFINE_COM Class(#PRIM_MD.Label) Name(#ApplicationName) Caption('Issues') Displayposition(1) Left(0) Parent(#AppDrawer) Tabposition(1) Top(0) Themedrawstyle('Title+DarkTitle') Width(228) Height(100) Iconalignment(CenterLeft) Iconmarginleft(10) Iconheight(32) Captionmarginright(0) Captionmarginleft(30) Captionmarginbottom(0) Captionmargintop(20) Captionalignment(TopLeft)
          //
          var APPLICATIONNAME = this.createReference( "APPLICATIONNAME", "PRIM_MD", "Label" );
 
          //
-         // DEFINE_COM Class(#PRIM_MD.NavButton) Name(#NavButton1) Caption('Issues') DisplayPosition(2) Icon('view_quilt') Left(0) Parent(#AppDrawer) TabPosition(2) Width(230) IconMarginLeft(10) Height(50) CaptionAlignment(CenterLeft) CaptionMarginLeft(20) CaptionMarginBottom(0) CaptionMarginRight(0) CaptionMarginTop(0) Manage(#Issues) IconOpacity(50)
+         // DEFINE_COM Class(#PRIM_MD.NavButton) Name(#NavButton1) Caption('Issues') Displayposition(2) Icon('view_quilt') Left(0) Parent(#AppDrawer) Tabposition(2) Width(228) Iconmarginleft(10) Height(50) Captionalignment(CenterLeft) Captionmarginleft(20) Captionmarginbottom(0) Captionmarginright(0) Captionmargintop(0) Manage(#Issues) Iconopacity(50) Top(100)
          //
          var NAVBUTTON1 = this.createReference( "NAVBUTTON1", "PRIM_MD", "NavButton" );
 
          //
-         // DEFINE_COM Class(#PRIM_MD.NavButton) Name(#NavButtonSettings) Caption('Settings') DisplayPosition(3) Icon('settings') Left(0) Parent(#AppDrawer) TabPosition(3) Top(300) Width(230) IconMarginLeft(10) Height(50) CaptionAlignment(CenterLeft) CaptionMarginLeft(20) CaptionMarginBottom(0) CaptionMarginRight(0) CaptionMarginTop(0) IconOpacity(50) Manage(#Settings) ThemeDrawStyle('TopDivider') 
+         // DEFINE_COM Class(#PRIM_MD.NavButton) Name(#NavButtonSettings) Caption('Settings') Displayposition(3) Icon('settings') Left(0) Parent(#AppDrawer) Tabposition(3) Top(150) Width(228) Iconmarginleft(10) Height(50) Captionalignment(CenterLeft) Captionmarginleft(20) Captionmarginbottom(0) Captionmarginright(0) Captionmargintop(0) Iconopacity(50) Manage(#Settings) Themedrawstyle('TopDivider')
          //
          var NAVBUTTONSETTINGS = this.createReference( "NAVBUTTONSETTINGS", "PRIM_MD", "NavButton" );
 
          //
-         // DEFINE_COM Class(#PRIM_MD.NavButton) Name(#NavButtonSignOut) Caption('Sign Out') DisplayPosition(4) Icon('exit_to_app') Left(0) Parent(#AppDrawer) TabPosition(4) Top(300) Width(230) IconMarginLeft(10) Height(50) CaptionAlignment(CenterLeft) CaptionMarginLeft(20) CaptionMarginBottom(0) CaptionMarginRight(0) CaptionMarginTop(0) IconOpacity(50)
+         // DEFINE_COM Class(#PRIM_MD.NavButton) Name(#NavButtonSignOut) Caption('Sign Out') Displayposition(4) Icon('exit_to_app') Left(0) Parent(#AppDrawer) Tabposition(4) Top(200) Width(228) Iconmarginleft(10) Height(50) Captionalignment(CenterLeft) Captionmarginleft(20) Captionmarginbottom(0) Captionmarginright(0) Captionmargintop(0) Iconopacity(50)
          //
          var NAVBUTTONSIGNOUT = this.createReference( "NAVBUTTONSIGNOUT", "PRIM_MD", "NavButton" );
 
          //
-         // DEFINE_COM Class(#D2_Issues) Name(#Issues) Parent(#ViewContainer) TabStop(False) DisplayPosition(1)
+         // DEFINE_COM Class(#D2_Issues) Name(#Issues) Parent(#ViewContainer) Height(718) Left(320) Width(962)
          //
          var ISSUES = this.createReference( "ISSUES", "D2_ISSUES" );
 
          //
-         // DEFINE_COM Class(#D2_Settings) Name(#Settings) DisplayPosition(3) Parent(#ViewContainer) Caption('Settings') Height(412) Width(920) Left(612) TabPosition(3)
+         // DEFINE_COM Class(#D2_Settings) Name(#Settings) Displayposition(2) Parent(#ViewContainer) Caption('Settings') Height(718) Width(962) Left(640) Tabposition(2)
          //
          var SETTINGS = this.createReference( "SETTINGS", "D2_SETTIN" );
 
@@ -440,11 +440,11 @@ function( Lansa, objectId, undefined )
          SEARCHSTRING.setHelperPosition( "NONE" );
          SEARCHSTRING.setIcon( "search" );
          SEARCHSTRING.setLabelPosition( "NONE" );
-         SEARCHSTRING.setWidth( 960 );
+         SEARCHSTRING.setWidth( 964 );
          SEARCHSTRING.setHeight( 40 );
          SEARCHSTRING.setPlaceholder( "Search" );
          SEARCHSTRING.setThemeDrawStyle( "Card+ForegroundTheme" );
-         SEARCHSTRING.setLeft( 230 );
+         SEARCHSTRING.setLeft( 228 );
          SEARCHSTRING.initialize();
 
          // ---------------------------
@@ -452,9 +452,8 @@ function( Lansa, objectId, undefined )
          // ---------------------------
          APPDRAWER.setDisplayPosition( 1 );
          APPDRAWER.setTabPosition( 3 );
-         APPDRAWER.setTabStop( false );
          APPDRAWER.setHeight( 800 );
-         APPDRAWER.setWidth( 230 );
+         APPDRAWER.setWidth( 228 );
          APPDRAWER.setLayoutManager( LAYOUTAPPDRAWER );
          APPDRAWER.setThemeDrawStyle( "MediumTitle" );
          APPDRAWER.setStyle( STYLEAPPDRAWER );
@@ -467,11 +466,10 @@ function( Lansa, objectId, undefined )
          VIEWCONTAINER.setDisplayPosition( 2 );
          VIEWCONTAINER.setParent( this );
          VIEWCONTAINER.setTabPosition( 2 );
-         VIEWCONTAINER.setTabStop( false );
          VIEWCONTAINER.setThemeDrawStyle( "Card+ForegroundTheme" );
          VIEWCONTAINER.setHeight( 720 );
-         VIEWCONTAINER.setWidth( 960 );
-         VIEWCONTAINER.setLeft( 230 );
+         VIEWCONTAINER.setWidth( 964 );
+         VIEWCONTAINER.setLeft( 228 );
          VIEWCONTAINER.setTop( 80 );
          VIEWCONTAINER.setAutoSelect( false );
          VIEWCONTAINER.initialize();
@@ -484,10 +482,9 @@ function( Lansa, objectId, undefined )
          APPLICATIONNAME.setLeft( 0 );
          APPLICATIONNAME.setParent( APPDRAWER );
          APPLICATIONNAME.setTabPosition( 1 );
-         APPLICATIONNAME.setTabStop( false );
          APPLICATIONNAME.setTop( 0 );
          APPLICATIONNAME.setThemeDrawStyle( "Title+DarkTitle" );
-         APPLICATIONNAME.setWidth( 230 );
+         APPLICATIONNAME.setWidth( 228 );
          APPLICATIONNAME.setHeight( 100 );
          APPLICATIONNAME.setIconAlignment( "CENTERLEFT" );
          APPLICATIONNAME.setIconMarginLeft( 10 );
@@ -508,7 +505,7 @@ function( Lansa, objectId, undefined )
          NAVBUTTON1.setLeft( 0 );
          NAVBUTTON1.setParent( APPDRAWER );
          NAVBUTTON1.setTabPosition( 2 );
-         NAVBUTTON1.setWidth( 230 );
+         NAVBUTTON1.setWidth( 228 );
          NAVBUTTON1.setIconMarginLeft( 10 );
          NAVBUTTON1.setHeight( 50 );
          NAVBUTTON1.setCaptionAlignment( "CENTERLEFT" );
@@ -518,6 +515,7 @@ function( Lansa, objectId, undefined )
          NAVBUTTON1.setCaptionMarginTop( 0 );
          NAVBUTTON1.setManage( ISSUES );
          NAVBUTTON1.setIconOpacity( 50 );
+         NAVBUTTON1.setTop( 100 );
          NAVBUTTON1.initialize();
 
          // -----------------------------------
@@ -529,8 +527,8 @@ function( Lansa, objectId, undefined )
          NAVBUTTONSETTINGS.setLeft( 0 );
          NAVBUTTONSETTINGS.setParent( APPDRAWER );
          NAVBUTTONSETTINGS.setTabPosition( 3 );
-         NAVBUTTONSETTINGS.setTop( 300 );
-         NAVBUTTONSETTINGS.setWidth( 230 );
+         NAVBUTTONSETTINGS.setTop( 150 );
+         NAVBUTTONSETTINGS.setWidth( 228 );
          NAVBUTTONSETTINGS.setIconMarginLeft( 10 );
          NAVBUTTONSETTINGS.setHeight( 50 );
          NAVBUTTONSETTINGS.setCaptionAlignment( "CENTERLEFT" );
@@ -552,8 +550,8 @@ function( Lansa, objectId, undefined )
          NAVBUTTONSIGNOUT.setLeft( 0 );
          NAVBUTTONSIGNOUT.setParent( APPDRAWER );
          NAVBUTTONSIGNOUT.setTabPosition( 4 );
-         NAVBUTTONSIGNOUT.setTop( 300 );
-         NAVBUTTONSIGNOUT.setWidth( 230 );
+         NAVBUTTONSIGNOUT.setTop( 200 );
+         NAVBUTTONSIGNOUT.setWidth( 228 );
          NAVBUTTONSIGNOUT.setIconMarginLeft( 10 );
          NAVBUTTONSIGNOUT.setHeight( 50 );
          NAVBUTTONSIGNOUT.setCaptionAlignment( "CENTERLEFT" );
@@ -568,20 +566,21 @@ function( Lansa, objectId, undefined )
          // -- Initialize #ISSUES --
          // ------------------------
          ISSUES.setParent( VIEWCONTAINER );
-         ISSUES.setTabStop( false );
-         ISSUES.setDisplayPosition( 1 );
+         ISSUES.setHeight( 718 );
+         ISSUES.setLeft( 320 );
+         ISSUES.setWidth( 962 );
          ISSUES.initialize();
 
          // --------------------------
          // -- Initialize #SETTINGS --
          // --------------------------
-         SETTINGS.setDisplayPosition( 3 );
+         SETTINGS.setDisplayPosition( 2 );
          SETTINGS.setParent( VIEWCONTAINER );
          SETTINGS.setCaption( "Settings" );
-         SETTINGS.setHeight( 412 );
-         SETTINGS.setWidth( 920 );
-         SETTINGS.setLeft( 612 );
-         SETTINGS.setTabPosition( 3 );
+         SETTINGS.setHeight( 718 );
+         SETTINGS.setWidth( 962 );
+         SETTINGS.setLeft( 640 );
+         SETTINGS.setTabPosition( 2 );
          SETTINGS.initialize();
 
          // ------------------------
