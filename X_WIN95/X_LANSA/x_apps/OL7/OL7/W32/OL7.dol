@@ -1,0 +1,10 @@
+LI	CB	 	 	 	 	 	 	 	 	 
+LI	LI	 	 	 	 	 	 	 	 	 
+DF	WO	d2_main.js	 	 	D2_MAIN	O	 	 	 	 
+DF	WO	d2_main.html	 	 	D2_MAIN	O	 	 	 	 
+DF	WO	d2_main.appcache	 	 	D2_MAIN	O	 	 	 	 
+FD	SO	afile2.CTD	I	 	AFILE2	N	 	 	D	 
+FD	EO	afile2.DLL	I	 	AFILE2	N	 	 	D	 
+FD	SD	afile2.DLL	I	 	AFILE2	N	 	 	D	 
+LI	CA	 	 	 	 	 	 	 	 	 
+ 	 	 	 	 	 	 	 	 	 	 
